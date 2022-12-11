@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+.contact {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), url(../../img/bg.png);
+    height: 450px;
+    color: #fff;
+}
+
+.contact_info,
+.contact_followus {
+    margin-top: 40px;
+}
+
+.contact_followus {
+    margin-inline-start: 50px;
+}
+.info_title {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+.contact_followus h3{
+font-family: 'Playfair Display SC', serif;
+}
+.contact_followus ul {
+    list-style: none;
+    margin-inline-start: 20px;
+    margin-top: 23px;
+
+}
+
+.contact_followus ul li {
+    margin-bottom: 15px;
+}
