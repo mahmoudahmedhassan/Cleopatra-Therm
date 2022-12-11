@@ -8,7 +8,7 @@ const Services = () => {
       <h1 className="Sectors">Sectors</h1>
       <Container>
         <Row>
-          <Col>
+          <Col className=' d-flex justify-content-center'>
             <div class="flip-card" tabIndex="0">
               <div class="flip-card-inner">
                 <div class="flip-card-front one">
@@ -20,7 +20,7 @@ const Services = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col className='d-flex justify-content-center'>
             <div class="flip-card" tabIndex="0">
               <div class="flip-card-inner">
                 <div class="flip-card-front secnd">
@@ -32,7 +32,7 @@ const Services = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col className='d-flex justify-content-center'>
             <div class="flip-card" tabIndex="0">
               <div class="flip-card-inner">
                 <div class="flip-card-front theard">

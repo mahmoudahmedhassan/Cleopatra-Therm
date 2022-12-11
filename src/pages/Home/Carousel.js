@@ -1,5 +1,5 @@
 import React from 'react';
- 
+
 import classes from './home.module.css'
 import slide_1 from "../../img/pexels-adrien-olichon-2464420.jpg";
 import slide_2 from "../../img/pexels-brett-sayles-12778827.jpg";
@@ -32,7 +32,9 @@ export default function Carousel() {
                     <div className={classes.slide}>
                         <Row>
                             <Col>
-                                <img src={slide_1} alt="logo" height="400px" width="400px" />
+                                <div>
+                                    <img src={slide_1} className={classes.slide_img} alt="logo" />
+                                </div>
                             </Col>
                             <Col>
                                 <div className={classes.slide_title}>
@@ -47,7 +49,9 @@ export default function Carousel() {
                     <div className={classes.slide}>
                         <Row>
                             <Col>
-                                <img src={slide_2} alt="logo" height="400px" width="400px" />
+                                <div className='d-flex justify-content-center'>
+                                    <img src={slide_2} className={classes.slide_img} alt="logo" />
+                                </div>
                             </Col>
                             <Col>
                                 <div className={classes.slide_title}>
@@ -62,8 +66,9 @@ export default function Carousel() {
                     <div className={classes.slide}>
                         <Row>
                             <Col>
-                                <img src={slide_3} alt="logo" height="400px" width="400px" />
-                            </Col>
+                                <div className='d-flex justify-content-center'>
+                                    <img src={slide_3} className={classes.slide_img} alt="logo" />
+                                </div>                            </Col>
                             <Col>
                                 <div className={classes.slide_title}>
                                     <h2>Cleopatra Therm</h2>
@@ -77,8 +82,9 @@ export default function Carousel() {
                     <div className={classes.slide}>
                         <Row>
                             <Col>
-                                <img src={slide_4} alt="logo" height="400px" width="400px" />
-                            </Col>
+                                <div className='d-flex justify-content-center'>
+                                    <img src={slide_4} className={classes.slide_img} alt="logo" />
+                                </div>                            </Col>
                             <Col>
                                 <div className={classes.slide_title}>
                                     <h2>Cleopatra Therm</h2>

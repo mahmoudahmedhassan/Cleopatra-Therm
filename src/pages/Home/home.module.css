@@ -7,7 +7,6 @@
      background-position:cover;
     height: 500px;
     color: #fff;
-
 }
 .swiper{
     height: 100% !important;
@@ -19,10 +18,7 @@
     justify-content:center;
     align-items:center;
 }
-.slide img{
-    border-radius: 20%;
-
-}
+ 
 .slide_title{
     height: 100%;
     display: flex;
@@ -30,5 +26,20 @@
     align-items: center;
     flex-direction:column;
     font-family: 'Playfair Display SC', serif;
-
 }
+.slide_img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .slide_img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    .slide_title{
+       font-size: 12px;
+    }
+  }
