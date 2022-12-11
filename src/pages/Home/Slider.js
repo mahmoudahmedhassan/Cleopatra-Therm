@@ -11,7 +11,7 @@ function Slider() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={bag_1} height='500px' width="100%"
+                        src={bag_1} height="400px" width="400px" 
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -22,7 +22,7 @@ function Slider() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={bag_2} height='500px' width="100%"
+                        src={bag_2} height="400px" width="400px" 
                         alt="Second slide"
                     />
 
@@ -34,7 +34,7 @@ function Slider() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={bag_3} height='500px' width="100%"
+                        src={bag_3} height="400px" width="400px" 
                         alt="Third slide"
                     />
 

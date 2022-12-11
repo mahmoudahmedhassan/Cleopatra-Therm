@@ -7,8 +7,8 @@ import Slider from './Slider';
 const Home = () => {
   return (
     <div className={classes.home} id="home">
-      {/* <Carousel/> */}
-      <Slider/>
+      <Carousel/>
+      {/* <Slider/> */}
       <Container>
 
         {/* <h3>

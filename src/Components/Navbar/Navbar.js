@@ -47,6 +47,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-mainbg">
       <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}   className="navbar-brand navbar-logo">
          <img className="logo" src={logo} alt="logo" height="50px" width="50px"/>
+         <span className="logo_name">Cleopatra Therm</span>
       </Link>
  
         <button 
