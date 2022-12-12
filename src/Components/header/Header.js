@@ -13,8 +13,8 @@ function Header() {
             <Container >
                 <Row >
                     
-                    <Col ><div className='header_title'>Cleopatra Therm</div></Col>
-                    <Col className='d-flex justify-content-end'>
+                    <Col sm={4}><div className='header_title'>Cleopatra Therm</div></Col>
+                    <Col sm={8} className='d-flex justify-content-end'>
                         <section>
                             <div class="wrapper">
                                 <div class="button">

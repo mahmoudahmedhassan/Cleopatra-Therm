@@ -5,8 +5,10 @@
     justify-content:space-around;
     align-items:center;
     padding: 3px;
-    background: firebrick;
-
+    background: #AAFFA9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
 }
 .header_title{
@@ -18,8 +20,8 @@
  
   .button {
 	float: left;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	cursor: pointer;
 	background: #fff;
 	overflow: hidden;
@@ -31,9 +33,9 @@
 }
 
 .button span {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 500;
-	line-height: 40px;
+	line-height: 30px;
 	margin-left: 10px;
 }
 
@@ -90,8 +92,8 @@
 }
 
 .button .icon {
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	text-align: center;
 	border-radius: 50px;
 	display: inline-block;
@@ -99,8 +101,8 @@
 }
 
 .button .icon i {
-	font-size: 17px;
-	line-height: 40px;
+	font-size: 12px;
+	line-height: 30px;
 	transition: all 0.3s ease-in-out;
 }
 
