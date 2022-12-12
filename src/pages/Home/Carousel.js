@@ -32,7 +32,7 @@ export default function Carousel() {
                     <div className={classes.slide}>
                         <Row>
                             <Col>
-                                <div>
+                                <div className='d-flex justify-content-center'>
                                     <img src={slide_1} className={classes.slide_img} alt="logo" />
                                 </div>
                             </Col>
