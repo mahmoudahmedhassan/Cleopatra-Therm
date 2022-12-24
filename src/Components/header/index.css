@@ -1,110 +1,119 @@
- 
-  
-.header{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    padding: 3px;
-    background-color: #B22222;
-}
-.header_title{
-    font-family: 'Playfair Display SC', serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: #fff;
-    font-size: 20px;
-    /* color: #e4ca8f; */
-}
- 
-  .button {
-	float: left;
-	width: 30px;
-	height: 30px;
-	cursor: pointer;
-	background: #fff;
-	overflow: hidden;
-	border-radius: 50px;
-	transition: all 0.3s ease-in-out;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    margin-inline-end: 5px;
+ .header {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	padding: 3px;
+ 	background-color: #B22222;
+ }
 
-}
+ .header_title {
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-weight: bold;
+ 	letter-spacing: 3px;
+ 	color: #fff;
+ 	font-size: 20px;
+ 	/* color: #e4ca8f; */
+ }
 
-.button span {
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 30px;
-	margin-left: 10px;
-}
+ .button {
+ 	float: left;
+ 	width: 30px;
+ 	height: 30px;
+ 	cursor: pointer;
+ 	background: #fff;
+ 	overflow: hidden;
+ 	border-radius: 50px;
+ 	transition: all 0.3s ease-in-out;
+ 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+ 	margin-inline-end: 5px;
 
-.button:hover {
-	width: 200px;
-}
+ }
 
-.button:nth-child(1):hover .icon {
-	background: #e1306c;
-}
+ .button span {
+ 	font-size: 12px;
+ 	font-weight: 500;
+ 	line-height: 30px;
+ 	margin-left: 10px;
+ }
 
-.button:nth-child(2):hover .icon {
-	background: #4267b2;
-}
+ .button:hover {
+ 	width: 200px;
+ }
 
-.button:nth-child(3):hover .icon {
-	background: #1da1f2;
-}
+ .button:nth-child(1):hover .icon {
+ 	background: #e1306c;
+ }
 
-.button:nth-child(4):hover .icon {
-	background: #0e76a8;
-}
+ .button:nth-child(2):hover .icon {
+ 	background: #4267b2;
+ }
 
-.button:nth-child(5):hover .icon {
-	background: #ff0000;
-}
+ .button:nth-child(3):hover .icon {
+ 	background: #1da1f2;
+ }
 
-.button:nth-child(6):hover .icon {
-	background: #333;
-}
+ .button:nth-child(4):hover .icon {
+ 	background: #0e76a8;
+ }
 
-.button:nth-child(1) span {
-	color: #e1306c;
-}
+ .button:nth-child(5):hover .icon {
+ 	background: #ff0000;
+ }
 
-.button:nth-child(2) span {
-	color: #4267b2;
-}
+ .button:nth-child(6):hover .icon {
+ 	background: #333;
+ }
 
-.button:nth-child(3) span {
-	color: #1da1f2;
-}
+ .button:nth-child(1) span {
+ 	color: #e1306c;
+ }
 
-.button:nth-child(4) span {
-	color: #0e76a8;
-}
+ .button:nth-child(2) span {
+ 	color: #4267b2;
+ }
 
-.button:nth-child(5) span {
-	color: #ff0000;
-}
+ .button:nth-child(3) span {
+ 	color: #1da1f2;
+ }
 
-.button:nth-child(6) span {
-	color: #333;
-}
+ .button:nth-child(4) span {
+ 	color: #0e76a8;
+ }
 
-.button .icon {
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	border-radius: 50px;
-	display: inline-block;
-	transition: all 0.3s ease-in-out;
-}
+ .button:nth-child(5) span {
+ 	color: #ff0000;
+ }
 
-.button .icon i {
-	font-size: 12px;
-	line-height: 30px;
-	transition: all 0.3s ease-in-out;
-}
+ .button:nth-child(6) span {
+ 	color: #333;
+ }
 
-.button:hover i {
-	color: #fff;
-}
- 
+ .button .icon {
+ 	width: 30px;
+ 	height: 30px;
+ 	text-align: center;
+ 	border-radius: 50px;
+ 	display: inline-block;
+ 	transition: all 0.3s ease-in-out;
+ }
+
+ .button .icon i {
+ 	font-size: 12px;
+ 	line-height: 30px;
+ 	transition: all 0.3s ease-in-out;
+ }
+
+ .button:hover i {
+ 	color: #fff;
+ }
+
+ @media (max-width: 425px) and (min-width: 991px) {
+	.header_title {
+		font-family: 'Playfair Display SC', serif;
+		font-weight: bold;
+ 		color: #fff;
+  	}
+	  .button:hover {
+		width: 100px;
+	}
+ }

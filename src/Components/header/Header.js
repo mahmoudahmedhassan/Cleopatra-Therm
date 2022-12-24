@@ -1,8 +1,5 @@
 import React from 'react'
 import './index.css';
-// import { HiOutlineLocationMarker } from "react-icons/hi";
-// import { AiOutlineWechat, AiOutlineMail, AiOutlinePhone, AiOutlineInstagram } from "react-icons/ai";
-// import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Header() {
@@ -13,7 +10,7 @@ function Header() {
             <Container >
                 <Row >
                     
-                    <Col sm={4}><div className='header_title'>Cleopatra Therm</div></Col>
+                    <Col sm={4}><div className='header_title text-center'>Cleopatra Therm</div></Col>
                     <Col sm={8} className='d-flex justify-content-end'>
                         <section>
                             <div class="wrapper">
